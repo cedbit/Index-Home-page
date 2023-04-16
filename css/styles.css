@@ -10,29 +10,27 @@
 */
 
 * {
-margin : 0;
-padding : 0;
+margin: 0;
+padding: 0;
 }
 body {
-font-size : 1.1em;
-font-family : Arial, Helvetica, sans-serif;
+font-size: 1.1em;
+font-family: Arial, Helvetica, sans-serif;
 background-color : lightgreen;
-box-shadow : 10px 0 40px rgb(51, 51, 51), -10px 0 40px rgb(51, 51, 51);
-border-left : 1px solid rgb(153, 0, 153);
-border-right : 1px solid rgb(153, 0, 153);
-height : 100%;
-margin : 0 auto;
-min-width : 320px;
-max-width : 1200px;
-width : 100%;
+box-shadow: 10px 0 40px rgb(51, 51, 51), -10px 0 40px rgb(51, 51, 51);
+border-left: 1px solid rgb(153, 0, 153);
+border-right: 1px solid rgb(153, 0, 153);
+height: 100%;
+margin: 0 auto;
+min-width: 320px;
+max-width: 1200px;
+width: 100%;
 }
 
-
-
 #container {
-width : 930px;
-margin : 0 auto;
-background-color : white;
+width: 930px;
+margin: 0 auto;
+background-color: white;
 width: 960px;
 border: thin none #1227ac;
 position:relative;
@@ -41,13 +39,14 @@ padding-bottom:20px;
 }
 header {
 background-color: #04AA6D;
-width : 910px;
-margin-bottom : 30px;
-margin-top : 10px;
-text-align : center;
-border : #888888 solid 1px;
-box-shadow : 15px 15px 5px 0 #888888;
-border-radius : 25px;
+width: 940px;
+margin-bottom: 40px;
+margin-top: 5px;
+text-align: center;
+border: #888888 solid 0px;
+box-shadow: 10px 10px 5px 0 #888888;
+border-radius: 25px;
+padding: 0.5em;
 }
 
 ul {
@@ -55,11 +54,15 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #3a6b35;
 }
+
+
 
 li {
   float: left;
+  text-align: center;
+  font-size: 18px;
 }
 
 li a {
@@ -68,6 +71,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  width: 100%;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -75,35 +79,32 @@ li a:hover {
   background-color: white;
 }
 
-
-
-nav {
-width : 910px;
-margin : 0 5px 0 5px;
-padding : 25px 10px 0 10px;
-float : left;
-text-align : center;
+.SearchBar {
+     position: right;
+     top: 355px;
 }
+
 nav ul {
 font-weight : bold;
 list-style : none;
+text-align: center;
 }
 nav ul li a {
-float : left;
+float : right;
 padding : 20px;
-color : gray;
+color : black;
 text-decoration : none;
 display : block;
 }
 nav ul li a:hover {
-background : gray;
+background : #111;
 border-radius : 10px;
 color : white;
 }
 #main {
 width : 446px;
 padding : 10px;
-float : left;
+float : center;
 color : black;
 border-left : 2px solid;
 border-right : 2px solid;
@@ -112,6 +113,14 @@ background-image : url(images/imagethree.jpg);
 #main p {
 text-indent : 1.5em;
 }
+
+div {
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 0.5em;
+}
+
+
 
 label {
 	width:240px;
@@ -224,11 +233,14 @@ h2 {
 font-size : 1.4em;
 text-align : center;
 padding-bottom : 0.5em;
+padding-top: 0.5em;
+color: black;
 }
 h3 {
 text-align : center;
 padding-bottom : 0.5em;
 padding-top : 0.5em;
+color: black;
 }
 footer {
 width : 910px;
@@ -236,7 +248,7 @@ margin : 0;
 padding : 10px;
 background-color : gray;
 clear : both;
-color : wheat;
+color : black;
 font-weight : bold;
 text-align : center;
 border-bottom-left-radius : 25px;
@@ -249,14 +261,16 @@ border : solid 2px;
 border-radius : 25px;
 }
 footer a:link {
-color : white;
+color : black;
 text-decoration : none;
 }
 footer a:visited {
 color : navy;
 background-color : grey;
-text-decoration : none;
+text-decoration : black;
 }
 footer a:hover {
 text-decoration : underline;
+color: white;
 }
+
